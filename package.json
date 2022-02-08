@@ -1,0 +1,17 @@
+{
+  "name": "qr_component",
+  "version": "0.0.0",
+  "description": "A QR Component made in vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node esbuild.js",
+    "sass" : "sass --watch src/sass/app.scss:dist/app.css"
+  },
+  "author": "zentyk",
+  "license": "WTFPL",
+  "devDependencies": {
+    "esbuild": "^0.14.20",
+    "sass": "^1.49.7"
+  }
+}

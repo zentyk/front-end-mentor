@@ -1,0 +1,38 @@
+@import url('./Outfit-VariableFont_wght.ttf');
+@import 'vysum';
+
+body {
+  height: 100vh;
+  wiidth: 100%;
+  background-color: hsl(212,45%,89%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.qrCode {
+  border-radius: 2%;
+}
+
+.title {
+  font-family: Outfit;
+  font-weight: 700;
+  color : hsl(218,44%,22%);
+}
+
+.subtitle {
+  font-family: Outfit;
+  font-size: 15px;
+  font-weight: 400;
+  color : hsl(220,15%,55%);
+}
